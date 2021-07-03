@@ -102,11 +102,11 @@ $('#yes').click(function() {
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Why???'>",
          backdrop:'
-              rgba(0,0,123,0.4)
-              url("img/giphy.gif")
-              leftbottom
-              no-repeat
-            ',
+              'rgba(0,0,123,0.4)'
+              'url("img/giphy.gif")'
+              'leftbottom'
+              'no-repeat'
+            ,
         background: '#fff url("img/123.jpg")',
         confirmButtonColor: '#3085d6',
         confirmButtonColor: '#fe8a71',
