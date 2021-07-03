@@ -96,12 +96,6 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-         backdrop:`
-                  rgba(0,0,123,0.4),
-                  url("img/giphy.gif")
-                  leftbottom
-                  no-repeat
-            `,
         title: 'Nói cho anh lí do đi :vv',
         html: true,
         width: 900,
@@ -110,7 +104,13 @@ $('#yes').click(function() {
         background: '#fff url("img/123.jpg")',
         confirmButtonColor: '#3085d6',
         confirmButtonColor: '#fe8a71',
-        confirmButtonText: 'Send to me <3'
+        confirmButtonText: 'Send to me <3',
+         backdrop:`
+                  rgba(0,0,123,0.4),
+                  url("img/giphy.gif")
+                  leftbottom
+                  no-repeat
+            `,
     }).then((result) => {
         if (result.value) {
             Swal.fire({
@@ -121,7 +121,7 @@ $('#yes').click(function() {
                 text: "Xong rồi thì rep ib của anh đi nàooo :v Có người đang ngồi đợi em nãy giờ nàyyyy ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com/hienht1310';
+                    window.location = 'http://fb.com/ltmiaa';
                   }
             })
         }
