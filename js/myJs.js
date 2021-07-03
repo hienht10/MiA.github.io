@@ -98,7 +98,7 @@ $('#yes').click(function() {
     Swal.fire({
         title: 'Nói cho anh lí do đi :vv',
         html: true,
-        width: 900,
+        width: 400,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Why???'>",
         background: '#fff url("img/123.jpg")',
@@ -108,19 +108,17 @@ $('#yes').click(function() {
               left bottom
               no-repeat
             `,
-              imageWidth: 150,
-              imageHeight: 150,
         confirmButtonColor: '#3085d6',
         confirmButtonColor: '#fe8a71',
-        confirmButtonText: 'Send to me <3',
+        confirmButtonText: 'Send to me <3'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/123.jpg")',
-                title: 'Anh biết mà ^^ Anh thì lúc nào cũng yêu em cựcccc <3',
-                text: "Xong rồi thì rep ib của anh đi nàooo :v Có người đang ngồi đợi em nãy giờ nàyyyy ",
+                title: 'Anh biết sẽ chưa có lí do gì đâu ^^ nhưng mà anh thì lúc nào cũng yêu em cựcccc <3',
+                text: "Xong rồi thì rep ib của anh đi nàooo :v Có người vẫn đang ngồi đợi em nàyyyy ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com/ltmiaa';
