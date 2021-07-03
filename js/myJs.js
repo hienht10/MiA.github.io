@@ -101,12 +101,12 @@ $('#yes').click(function() {
         width: 900,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Why???'>",
-         backdrop: 
+         backdrop:'
               rgba(0,0,123,0.4)
               url("img/giphy.gif")
               leftbottom
               no-repeat
-            ,
+            ',
         background: '#fff url("img/123.jpg")',
         confirmButtonColor: '#3085d6',
         confirmButtonColor: '#fe8a71',
@@ -121,7 +121,7 @@ $('#yes').click(function() {
                 text: "Xong rồi thì rep ib của anh đi nàooo :v Có người đang ngồi đợi em nãy giờ nàyyyy ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com';
+                    window.location = 'http://fb.com/hienht1310';
                   }
             })
         }
