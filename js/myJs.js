@@ -96,6 +96,12 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
+         backdrop:`
+                  rgba(0,0,123,0.4),
+                  url("img/giphy.gif"),
+                  leftbottom
+                  
+            `,
         title: 'Nói cho anh lí do đi :vv',
         html: true,
         width: 900,
@@ -104,13 +110,7 @@ $('#yes').click(function() {
         background: '#fff url("img/123.jpg")',
         confirmButtonColor: '#3085d6',
         confirmButtonColor: '#fe8a71',
-        confirmButtonText: 'Send to me <3',
-        backdrop:'
-              rgba(0,0,123,0.4)
-              url("img/giphy.gif")
-              leftbottom
-              no-repeat
-            ',
+        confirmButtonText: 'Send to me <3'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
