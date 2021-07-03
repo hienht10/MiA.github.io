@@ -97,7 +97,7 @@ $('#yes').click(function() {
     Swal.fire({
         title: 'Nói cho anh lí do đi :vv',
         html: true,
-        width: 600,
+        width: 700,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Why???'>",
         background: '#fff url("img/123.jpg")',
