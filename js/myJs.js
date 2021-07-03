@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Em không biết đúng không? Hihi :v ";
+    var text = " Em không biết đúng không? :v ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -99,7 +99,7 @@ $('#yes').click(function() {
         html: true,
         width: 700,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Why???'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Tell me why???'>",
         background: '#fff url("img/123.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
