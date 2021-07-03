@@ -104,7 +104,7 @@ $('#yes').click(function() {
          backdrop: 
               rgba(0,0,123,0.4)
               url("img/giphy.gif")
-              left bottom
+              leftbottom
               no-repeat
             ,
         background: '#fff url("img/123.jpg")',
