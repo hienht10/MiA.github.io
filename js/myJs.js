@@ -105,11 +105,11 @@ $('#yes').click(function() {
         backdrop: `
               rgba(0,0,123,0.4)
               url("img/giff.gif")
-              imageWidth: 100
-              imageHeight: 100
               left bottom
               no-repeat
             `,
+              imageWidth: 150,
+              imageHeight: 150,
         confirmButtonColor: '#3085d6',
         confirmButtonColor: '#fe8a71',
         confirmButtonText: 'Send to me <3',
