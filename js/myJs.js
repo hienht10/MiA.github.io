@@ -116,8 +116,7 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/123.jpg")',
-                title: 'Anh biết sẽ chưa có lí do gì đâu ^^ 
-                 Nhưng mà nhớ là anh lúc nào cũng yêu em cựcccc <3',
+                title: 'Anh biết em chưa có lí do gì đâu ^^ Nhưng mà nhớ là anh lúc nào cũng yêu em cựcccc <3',
                 text: "Xong rồi thì rep ib của anh đi nàooo :v Có người vẫn đang ngồi đợi em nàyyyy ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
