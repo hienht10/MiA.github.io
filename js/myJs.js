@@ -97,7 +97,7 @@ $('#yes').click(function() {
     Swal.fire({
         title: 'Nói cho anh lí do đi :vv',
         html: true,
-        width: 400,
+        width: 700,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Why???'>",
         background: '#fff url("img/123.jpg")',
@@ -116,7 +116,8 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/123.jpg")',
-                title: 'Anh biết sẽ chưa có lí do gì đâu ^^ Nhưng mà nhớ là anh lúc nào cũng yêu em cựcccc <3',
+                title: 'Anh biết sẽ chưa có lí do gì đâu ^^ 
+                 Nhưng mà nhớ là anh lúc nào cũng yêu em cựcccc <3',
                 text: "Xong rồi thì rep ib của anh đi nàooo :v Có người vẫn đang ngồi đợi em nàyyyy ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
