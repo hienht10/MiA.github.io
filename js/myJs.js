@@ -102,15 +102,15 @@ $('#yes').click(function() {
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Why???'>",
         background: '#fff url("img/123.jpg")',
+        backdrop: `
+              rgba(0,0,123,0.4)
+              url("img/giff.gif")
+              left bottom
+              no-repeat
+            `,
         confirmButtonColor: '#3085d6',
         confirmButtonColor: '#fe8a71',
         confirmButtonText: 'Send to me <3',
-         backdrop:`
-                  rgba(0,0,123,0.4),
-                  url("img/giphy.gif")
-                  leftbottom
-                  no-repeat
-            `,
     }).then((result) => {
         if (result.value) {
             Swal.fire({
