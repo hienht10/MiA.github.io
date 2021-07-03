@@ -105,6 +105,8 @@ $('#yes').click(function() {
         backdrop: `
               rgba(0,0,123,0.4)
               url("img/giff.gif")
+              imageWidth: 100
+              imageHeight: 100
               left bottom
               no-repeat
             `,
