@@ -98,9 +98,9 @@ $('#yes').click(function() {
     Swal.fire({
          backdrop:`
                   rgba(0,0,123,0.4),
-                  url("img/giphy.gif"),
+                  url("img/giphy.gif")
                   leftbottom
-                  
+                  no-repeat
             `,
         title: 'Nói cho anh lí do đi :vv',
         html: true,
