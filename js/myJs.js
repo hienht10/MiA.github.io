@@ -101,12 +101,12 @@ $('#yes').click(function() {
         width: 900,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Why???'>",
-         backdrop: `
+         backdrop: 
               rgba(0,0,123,0.4)
               url("img/giphy.gif")
               left bottom
               no-repeat
-            `,
+            ,
         background: '#fff url("img/123.jpg")',
         confirmButtonColor: '#3085d6',
         confirmButtonColor: '#fe8a71',
